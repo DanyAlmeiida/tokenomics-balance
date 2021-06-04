@@ -1,0 +1,27 @@
+{
+  "name": "tokenomics_balance",
+  "version": "1.0.0",
+  "description": "Node Js project that gets the APY earned in wallet address from bscScan API",
+  "main": "./src/index.js",
+  "scripts": {
+    "start": "nodemon ./src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "tokenomics-balance"
+  },
+  "keywords": [
+    "tokenomics",
+    "balance",
+    "APY",
+    "with",
+    "tokenomics"
+  ],
+  "author": "Dany Almeida",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.7"
+  }
+}
